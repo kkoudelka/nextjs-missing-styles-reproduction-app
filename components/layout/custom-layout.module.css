@@ -1,0 +1,16 @@
+.customLayout {
+  display: grid;
+  grid-template-columns: [left] 1fr [content] 2fr [right] 1fr;
+}
+
+.left {
+  grid-area: left;
+}
+
+.content {
+  grid-area: content;
+}
+
+.right {
+  grid-area: right;
+}
